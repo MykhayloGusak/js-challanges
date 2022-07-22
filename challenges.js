@@ -5,11 +5,11 @@ function sortNumbers(arrayOfNumbers) {
 
     // #2 sort the numbers in ascending order with for
     // TODO
-
+    var b = 30;
     // #3 sort the numbers in ascending order with [].reduce(callback)
     // TODO
 
-    return arrayOfNumbers
+    return arrayOfNumbers;
 }
 
 
