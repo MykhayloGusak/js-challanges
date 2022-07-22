@@ -9,11 +9,10 @@ describe('Challenge tests', function () {
 
             // Act
             const result = sortNumbers(listOfNumbers)
-            console.log(result)
+
             // Assert
             expect(result).toEqual([1, 2, 3, 5])
         });
-
 
         it('should return sorted array of numbers', function () {
             // Arrange
@@ -36,6 +35,6 @@ describe('Challenge tests', function () {
             // Assert
             expect(result).toEqual([-Infinity, -10, 0, 10, Infinity])
         });
-
     });
+
 });
