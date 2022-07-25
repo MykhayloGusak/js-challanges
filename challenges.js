@@ -12,7 +12,20 @@ function sortNumbers(arrayOfNumbers) {
     return arrayOfNumbers
 }
 
+// challenge #2
+function getUniqueValues(arrayOfValues) {
+    // do with utils that you prefer the most
+    return arrayOfValues
+}
+
+// challenge #3
+function countProvidedValues(arrayOfValues) {
+    // do with utils that you prefer the mos
+    return arrayOfValues
+}
 
 module.exports = {
-    sortNumbers
+    sortNumbers,
+    getUniqueValues,
+    countProvidedValues,
 }
